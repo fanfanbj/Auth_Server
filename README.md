@@ -1,1 +1,1 @@
-# Auth_Server
+# Authentication Server
