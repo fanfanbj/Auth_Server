@@ -1,1 +1,1 @@
-# Authentication Server
+# Auth Service
