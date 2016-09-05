@@ -149,7 +149,7 @@ func (as *AuthServer) CreateToken(ar *AuthRequest, actions []string) (string, er
 	}
 	if len(actions) > 0 {
 		claims.Access = []*token.ResourceActions{
-			&token.ResourceActions{Type: ar.ai.Type, Name: ar.ai.Name, Actions: actions},
+			{Type: ar.ai.Type, Name: ar.ai.Name, Actions: actions},
 		}
 	}
 	claimsJSON, err := json.Marshal(claims)

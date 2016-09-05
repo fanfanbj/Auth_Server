@@ -14,11 +14,11 @@ import (
 )
 
 type Config struct {
-	Server     ServerConfig                   `yaml:"server"`
-	Token      TokenConfig                    `yaml:"token"`
-	Users      map[string]*authn.Requirements `yaml:"users,omitempty"`
-	LDAPAuth   *authn.LDAPAuthConfig          `yaml:"ldap_auth,omitempty"`
-	ACL        authz.ACL                      `yaml:"acl"`
+	Server   ServerConfig                   `yaml:"server"`
+	Token    TokenConfig                    `yaml:"token"`
+	Users    map[string]*authn.Requirements `yaml:"users,omitempty"`
+	LDAPAuth *authn.LDAPAuthConfig          `yaml:"ldap_auth,omitempty"`
+	ACL      authz.ACL                      `yaml:"acl"`
 }
 
 type ServerConfig struct {
