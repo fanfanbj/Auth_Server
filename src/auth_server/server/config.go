@@ -6,7 +6,6 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
-	"strings"
 
 	"auth_server/authn"
 	"auth_server/authz"
