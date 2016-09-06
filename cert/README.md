@@ -20,7 +20,7 @@ There are quite a few fields but you can leave some blank
 For some fields there will be a default value,
 If you enter '.', the field will be left blank.
 -----
-Country Name (2 letter code) [AU]:DE
+Country Name (2 letter code) [AU]:CH
 State or Province Name (full name) [Some-State]:Example State
 Locality Name (eg, city) []:Example City 
 Organization Name (eg, company) [Internet Widgits Pty Ltd]:Example Company
@@ -43,7 +43,7 @@ Certificate:
         Version: 3 (0x2)
         Serial Number: 15377324996609959013 (0xd5673b9ca2abe465)
     Signature Algorithm: sha256WithRSAEncryption
-        Issuer: C=DE, ST=Example State, L=Example City, O=Example Company, OU=Example Organization Unit, CN=registry.example.com/emailAddress=admin@registry.example.com
+        Issuer: C=CH, ST=Example State, L=Example City, O=Example Company, OU=Example Organization Unit, CN=registry.example.com/emailAddress=admin@registry.example.com
         Validity
             Not Before: Oct 26 11:02:58 2015 GMT
             Not After : Oct 25 11:02:58 2016 GMT
