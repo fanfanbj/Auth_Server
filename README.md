@@ -15,7 +15,7 @@ Supported authorization methods:
 
 	#make deps
 	#make build
-	#./bin/flex-auth-service --v=2 --alsologtostderr /config/simple.yml
+	#./bin/flex-auth-service --v=2 --alsologtostderr /config/simple.yml #for static user auth.
 
 
 
