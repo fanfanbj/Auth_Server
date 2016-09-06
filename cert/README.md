@@ -47,7 +47,7 @@ Certificate:
         Validity
             Not Before: Oct 26 11:02:58 2015 GMT
             Not After : Oct 25 11:02:58 2016 GMT
-        Subject: C=DE, ST=Example State, L=Example City, O=Example Company, OU=Example Organization Unit, CN=registry.example.com/emailAddress=admin@registry.example.com
+        Subject: C=CH, ST=Example State, L=Example City, O=Example Company, OU=Example Organization Unit, CN=registry.example.com/emailAddress=admin@registry.example.com
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
                 Public-Key: (4096 bit)
