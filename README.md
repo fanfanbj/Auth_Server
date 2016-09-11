@@ -38,5 +38,4 @@ Supported authorization methods:
 # Refer to
 
 * https://github.com/cesanta/docker_auth
-* https://github.com/kwk/docker-registry-setup
 
